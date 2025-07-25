@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYLO - Fitness & Streetwear</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-container">
+                <img src="assets/images/mylo-logo.png" alt="MYLO" class="logo">
+            </div>
+            
+            <!-- Navigation -->
+            <nav class="navigation">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#colecao" class="nav-link">Coleção</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre a MYLO</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                
+                <!-- Mobile Menu Toggle -->
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home-section">
+            <div class="hero-banner">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">MYLO é mais do que uma marca, é um estilo de vida.</h1>
+                        <p class="hero-subtitle">Representa superação, entusiasmo e força, com leveza e autenticidade. Ser MYLO é ser você: fora do comum!</p>
+                        <div class="hero-cta">
+                            <a href="#colecao" class="btn btn-primary">Explorar Coleção</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/home_banner_fitness.jpg" alt="MYLO Lifestyle" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Coleção Section -->
+        <section id="colecao" class="colecao-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nossa Coleção</h2>
+                    <p class="section-subtitle">Descubra peças que falam por você</p>
+                </div>
+                
+                <!-- Filtros -->
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="estampa-filter">Tipo de Estampa:</label>
+                        <select id="estampa-filter" class="filter-select">
+                            <option value="">Todas</option>
+                            <option value="minimalista">Minimalista</option>
+                            <option value="expressiva">Expressiva</option>
+                            <option value="urbana">Urbana</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="cor-filter">Cor:</label>
+                        <select id="cor-filter" class="filter-select">
+                            <option value="">Todas</option>
+                            <option value="preto">Preto</option>
+                            <option value="branco">Branco</option>
+                            <option value="azul">Azul</option>
+                            <option value="cinza">Cinza</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="modelagem-filter">Modelagem:</label>
+                        <select id="modelagem-filter" class="filter-select">
+                            <option value="">Todas</option>
+                            <option value="regular">Regular</option>
+                            <option value="oversized">Oversized</option>
+                            <option value="slim">Slim</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <!-- Grid de Produtos -->
+                <div class="products-grid">
+                    <!-- Produtos serão adicionados dinamicamente -->
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="assets/images/produto-placeholder.jpg" alt="Produto MYLO">
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Camiseta MYLO Attitude</h3>
+                            <p class="product-description">Estampa expressiva para quem não passa despercebido</p>
+                            <div class="product-price">
+                                <span class="price">R$ 89,90</span>
+                                <span class="installments">ou 3x de R$ 29,97</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn btn-secondary">Comprar Agora</button>
+                                <span class="free-shipping">Frete Grátis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sobre Section -->
+        <section id="sobre" class="sobre-section">
+            <div class="container">
+                <div class="sobre-content">
+                    <div class="sobre-text">
+                        <h2 class="section-title">Sobre a MYLO</h2>
+                        
+                        <div class="story-block">
+                            <p>A MYLO nasceu da mistura entre treino, identidade e atitude.</p>
+                        </div>
+                        
+                        <div class="story-block">
+                            <p>A ideia surgiu entre séries e suor, quando percebemos que o que vestimos também fala — e muito. A MYLO representa quem encara o treino com seriedade, mas sem perder o bom humor.</p>
+                        </div>
+                        
+                        <div class="story-block">
+                            <p>Quem tem força, mas também leveza. Quem é intenso, mas autêntico.</p>
+                        </div>
+                        
+                        <div class="story-block">
+                            <p>Nossas camisetas não são só roupas: são declarações de espírito.</p>
+                        </div>
+                        
+                        <div class="story-block">
+                            <p>Com frases curtas, estampas expressivas e estilo urbano, elas carregam no peito a mesma energia que a gente leva pra barra.</p>
+                        </div>
+                        
+                        <div class="story-block highlight">
+                            <p><strong>Ser MYLO é ser fora do comum.</strong></p>
+                        </div>
+                    </div>
+                    
+                    <div class="sobre-image">
+                        <img src="assets/images/home_banner_streetwear.jpeg" alt="MYLO Streetwear">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato Section -->
+        <section id="contato" class="contato-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Fale Conosco</h2>
+                    <p class="section-subtitle">Estamos aqui para você</p>
+                </div>
+                
+                <div class="contato-content">
+                    <div class="contact-form">
+                        <form class="form">
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" id="nome" name="nome" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="whatsapp">WhatsApp</label>
+                                <input type="tel" id="whatsapp" name="whatsapp" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mensagem">Mensagem</label>
+                                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </form>
+                    </div>
+                    
+                    <div class="contact-info">
+                        <div class="social-links">
+                            <h3>Siga a MYLO</h3>
+                            <div class="social-icons">
+                                <a href="#" class="social-link instagram">
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="#" class="social-link tiktok">
+                                    <span>TikTok</span>
+                                </a>
+                                <a href="#" class="social-link email">
+                                    <span>E-mail</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/mylo-logo.png" alt="MYLO" class="logo">
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2024 MYLO. Todos os direitos reservados.</p>
+                    <p>Ser MYLO é ser fora do comum.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/5511999999999" target="_blank" class="whatsapp-btn">
+            <span>WhatsApp</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
